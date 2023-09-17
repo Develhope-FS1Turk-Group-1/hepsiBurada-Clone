@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* a {
+    text-decoration: none;
+}
+
+* ul {
+    list-style-type: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+
+.adCardsContainer {
+    display: flex;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    margin-top: 15rem;
+    gap: 3rem;
+}
+
+.adCardsContainer .adCards{
+    width: 28rem;
+}
+
+.adCardsContainer .adCardTitle{
+    height: 3rem;
+    font-size: 2.4rem;
+    margin-bottom: 4rem;
+    color: #4E4E53;
+}
+
+.addCardImg img{
+    min-width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 2rem ;
+}

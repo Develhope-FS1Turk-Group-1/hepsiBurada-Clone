@@ -1,0 +1,71 @@
+{
+    "firstCarousel":[
+        {
+            "title": "Cikrilan Çocuk Sırt Çantası (Yurt Dışından)",
+            "image": "https://productimages.hepsiburada.net/s/108/200-200/110000051536850.jpg",
+            "price": "298,38",
+            "oldPrice": ""
+        },
+        {
+            "title": "Apple Watch Series 8 Gps 41MM Starlight Aluminium Case With Starlight Sport Band - Regular MNP63TU/A",
+            "image": "https://productimages.hepsiburada.net/s/337/200-200/110000313376622.jpg",
+            "price": "12.465,00",
+            "oldPrice": ""
+        },
+        {
+            "title": "Onvo OV75F500 75'' 190 Ekran Uydu Alıcılı 4K Ultra HD Smart LED TV",
+            "image": "https://productimages.hepsiburada.net/s/373/200-200/110000390939054.jpg",
+            "price": "19.999,00",
+            "oldPrice": ""
+        },
+        {
+            "title": "Rotring Tikky Okul Seti 0.5 mm Beyaz Versatil Kalem + Silgi + Uç",
+            "image": "https://productimages.hepsiburada.net/s/265/200-200/110000249655751.jpg",
+            "price": "99,00",
+            "oldPrice": ""
+        },
+        {
+            "title": "Honor 90 512 GB 12 GB Ram (Honor Türkiye Garantili)",
+            "image": "https://productimages.hepsiburada.net/s/446/200-200/110000480404273.jpg",
+            "price": "16.999,00",
+            "oldPrice": ""
+        },
+        {
+            "title": "Onvo OV32150 32'' 82 Ekran Uydu Alıcılı HD Android Smart LED TV",
+            "image": "https://productimages.hepsiburada.net/s/44/200-200/10801167859762.jpg",
+            "price": "4.299,00",
+            "oldPrice": "4.622,58"
+        },
+        {
+            "title": "Joystar Katlanabilir Kamp Plaj ve Balıkçı Sandalyesi Kırmızı",
+            "image": "https://productimages.hepsiburada.net/s/244/200-200/110000229715204.jpg",
+            "price": "249,99",
+            "oldPrice": ""
+        },
+        {
+            "title": "Seay Yeşim Tırtıklı Roller ve Ikili Guasha Seti Yüz Masaj Aleti Takımı Masaj Seti Doğal Taş Masaj Taşı",
+            "image": "https://productimages.hepsiburada.net/s/226/200-200/110000206984827.jpg",
+            "price": "134,90",
+            "oldPrice": "149,00"
+        }
+    ],
+
+    "firstCard":[
+        {
+            "title": "Deprem bölgelerine <b>destek olabilirsiniz</b>",
+            "img": "https://images.hepsiburada.net/banners/s/0/227-403/marketingbillboard_20230221215933.jpeg/format:webp"
+        }, {
+            "title":"Kolay <b>yolculuk</b>",
+           "img":"https://images.hepsiburada.net/banners/s/0/227-403/marketingbillboard_20230912110951.png/format:webp"
+        }, {
+            "title":"<b>3 saatte bir</b> yenilenen fırsatlar</b>",
+           "img":"https://images.hepsiburada.net/banners/s/0/227-403/marketingbillboard_20230912111117.jpeg/format:webp"
+        } ,{
+            "title":"<b>Hepsipay</b> ile tanış",
+           "img":"https://images.hepsiburada.net/banners/s/0/227-403/marketingbillboard_20230907132409.png/format:webp"
+        }, {
+            "title":"<b>Süper fiyatlarla</b> yurt dışından ürünler",
+           "img":"https://images.hepsiburada.net/banners/s/0/227-403/marketingbillboard_20230912111000.png/format:webp"
+        }
+    ]
+}
