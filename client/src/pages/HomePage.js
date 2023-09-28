@@ -1,12 +1,14 @@
 import React from 'react'
 import SuperPriceOffer from '../components/home/SuperPriceOffer'
 import AdCards from '../components/home/AdCards'
+import Herousel from '../components/home/Herousel'
 
 const HomePage = () => {
   return (
-      <div>
+    <div>
+      <Herousel />
       <SuperPriceOffer />
-      <AdCards/>
+      <AdCards />
     </div>
   )
 }
