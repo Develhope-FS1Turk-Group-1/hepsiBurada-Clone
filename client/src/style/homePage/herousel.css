@@ -1,0 +1,233 @@
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+}
+
+.herouselAllContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f5f5f5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3rem;
+}
+
+.herouselHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 1.8rem 0 1.3rem;
+}
+
+
+#herouselHeaderTitle {
+    cursor: pointer;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+    ;
+}
+
+
+.titleBackground{
+    background-color: white;
+    color: black !important;
+    padding: 1rem;
+    border-radius:1rem ;
+}
+
+.herouselAllBaseTemplate {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.herouselBaseTemplate {
+    display: flex;
+    height: 38.6rem;
+    width: 108.9rem;
+    justify-content: space-around;
+    box-shadow: 0 0 2rem grey;
+    border-radius: 1.5rem;
+    background-color: white;
+}
+
+.herouselBaseTemplateLeft {
+    position: relative;
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+    align-items: start;
+}
+
+.herouselBaseTemplateLeftContainer {
+    padding: 0 2.5rem;
+}
+
+.textsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#shareImage {
+    position: absolute;
+    right: 0;
+    padding: 0;
+    top: 2rem;
+    background-color: transparent;
+}
+
+
+
+.shareMenu {
+    position: absolute;
+    top: 3.5rem;
+    right: -20rem;
+    font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+    padding: 1.5rem 0;
+    box-shadow: 0 0 2rem grey;
+    border-radius: 1.5rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 2rem;
+    width: 22rem;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.imagewp {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 2.4rem;
+    width: 2.4rem;
+    margin-left: 1.6rem;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724%27 height=%2724%27 viewBox=%270 0 24 24%27 stroke=%27none%27 fill=%27none%27%3E %3Cpath fill=%27%235BE469%27 fill-rule=%27nonzero%27 d=%27M12 .09C5.408.09.05 5.408 0 12a11.74 11.74 0 0 0 2.14 6.77l-1.35 4a.5.5 0 0 0 .12.51.51.51 0 0 0 .51.13l4.2-1.33A12 12 0 0 0 24 12C23.95 5.408 18.592.09 12 .09zm7.2 16.72a3.91 3.91 0 0 1-3.5 2.09 10.71 10.71 0 0 1-3.45-1 14 14 0 0 1-5.95-5.16c-1.91-2.53-2-4.9-.16-6.86A2.17 2.17 0 0 1 8 5.32a1.54 1.54 0 0 1 1.21.87l.38.92.63 1.51a1.1 1.1 0 0 1 0 1 5.14 5.14 0 0 1-1 1.37 12.41 12.41 0 0 0 1.79 2.15 9.06 9.06 0 0 0 2.73 1.63c.28-.36.83-1 1-1.27a1 1 0 0 1 1.34-.36c.38.14 2.51 1.18 2.51 1.18.27.092.507.262.68.49a2 2 0 0 1-.07 2z%27/%3E %3C/svg%3E");
+}
+
+.imagefb {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 2.4rem;
+    width: 2.4rem;
+    margin-left: 1.6rem;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724%27 height=%2724%27 viewBox=%270 0 24 24%27 stroke=%27none%27 fill=%27none%27%3E %3Cpath fill=%27%233972C1%27 fill-rule=%27nonzero%27 d=%27M19.55 14.56a.5.5 0 0 1-.5.44H17a.5.5 0 0 0-.5.5v8a.5.5 0 0 0 .5.5h6a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v22a1 1 0 0 0 1 1h11a.5.5 0 0 0 .5-.5v-8a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 0 .5-.5V9.19a5.69 5.69 0 0 1 5.69-5.69h1.31a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-1.31a1.69 1.69 0 0 0-1.69 1.69v1.31a.5.5 0 0 0 .5.5h2.43a.5.5 0 0 1 .5.56l-.38 3z%27/%3E %3C/svg%3E");
+}
+
+.imagetw {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 2.4rem;
+    width: 2.4rem;
+    margin-left: 1.6rem;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724%27 height=%2720%27 viewBox=%270 0 24 20%27 stroke=%27none%27 fill=%27none%27%3E %3Cpath fill=%27%2348C1D9%27 fill-rule=%27nonzero%27 d=%27M23.32 4.44a.5.5 0 0 0-.2-.87l-.79-.2a.5.5 0 0 1-.33-.7l.44-.89a.5.5 0 0 0-.58-.7l-2 .56a.5.5 0 0 1-.44-.08 5 5 0 0 0-8 4v.36a.25.25 0 0 1-.22.25c-2.81.33-5.5-1.1-8.4-4.44a.51.51 0 0 0-.51-.15A.5.5 0 0 0 2 2a7.58 7.58 0 0 0 .46 4.92.25.25 0 0 1-.26.36l-1.12-.22a.5.5 0 0 0-.57.59 5.15 5.15 0 0 0 2.37 3.78.25.25 0 0 1 0 .45l-.53.21a.5.5 0 0 0-.26.69 4.36 4.36 0 0 0 3.2 2.48.25.25 0 0 1 0 .47 10.94 10.94 0 0 1-4.29.83.51.51 0 1 0-.2 1 20.06 20.06 0 0 0 8.14 1.93 12.58 12.58 0 0 0 7-2A12.5 12.5 0 0 0 21.5 7.06v-.87a.5.5 0 0 1 .18-.38l1.64-1.37z%27/%3E %3C/svg%3E")
+}
+
+.herouselBaseTemplateLeft span {
+    margin-bottom: 1rem;
+    font-size: 2.4rem;
+    text-align: start;
+    font-weight: 300;
+    font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+    color: #484848;
+}
+
+.herouselBaseTemplateLeft span:last-child {
+    font-weight: 500;
+    font-size: 3.2rem;
+}
+
+.herouselBaseTemplateLeft p {
+    color: #7b7b7b;
+}
+
+.herouselBaseTemplateLeft button {
+    padding: 1.2rem 2.4rem;
+    border: 0;
+    border-radius: 3rem;
+    background-color: #ff6000;
+    color: white;
+}
+
+.herouselBaseTemplateRight {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 60%;
+    border-radius: 2rem;
+}
+
+.herouselPagination {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.titleBorder {
+    border-radius: 2rem;
+    background-color: white;
+    padding: 0.8rem 2rem;
+}
+
+.herouselPagination button {
+    border: 0.2rem solid rgba(226, 221, 221, 0.7);
+    border-radius: 3rem;
+    height: 3.2rem;
+    width: 5.5rem;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    opacity: .7;
+    overflow: visible;
+    white-space: nowrap;
+    overflow: visible;
+}
+
+#arrow {
+    filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(222deg) brightness(1010%) contrast(101%);
+    opacity: .7;
+}
+
+.herouselPagination button:hover {
+    opacity: 1;
+}
+
+.herouselPagination ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+    padding-inline-start: 0;
+}
+
+
+.herouselPagination ul img {
+    width: 6.3rem;
+    height: 4rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
