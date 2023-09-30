@@ -1,0 +1,72 @@
+.FooterMainContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 15rem 0rem;
+}
+
+.upperFooterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FooterUPUP {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65%;
+    height: 100%;
+}
+.FooterUPelement{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.8rem;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+.FooterUPelement img {
+    width: 85%;
+    transition: 0.7s ease;
+}
+.FooterUPelement hr {
+    height: 1.5rem;
+}
+.FooterUPelement img:hover{width: 100%; transition: 0.7s ease; cursor: pointer;}
+.FooterUPelement span{opacity: 0.3; transition: 1.5s ease;}
+.FooterUPelement span:hover{
+    cursor: pointer;
+    color: orangered;
+    opacity: 1;
+    transition: 0.7s ease;
+}
+
+
+.FooterUPLOW{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 14rem;
+}
+.FooterUPLOW hr{
+    height: 15rem;
+    opacity: 0.1;
+}
+
+.FooterLOWelement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 20rem;
+    width: 20%;
+    text-align: center;
+}
+.FooterLOWelement h1{font-size: 1.7rem;}
+.FooterLOWelement img{
+    width: 50%;
+}
